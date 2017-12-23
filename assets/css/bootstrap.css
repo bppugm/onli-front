@@ -4516,6 +4516,14 @@ tbody.collapse.show {
 .jumbotron-head {
   padding-right: 0;
   padding-left: 0;
+  background-color: rgb(253, 213, 95);
+  border-radius: 0;
+  height: 100vh;
+}
+
+.jumbotron-book {
+  padding-right: 0;
+  padding-left: 0;
   background-color: #e9ecef;
   border-radius: 0;
 }
