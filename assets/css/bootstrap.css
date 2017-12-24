@@ -3785,6 +3785,13 @@ tbody.collapse.show {
     top: auto;
     bottom: 100%;
   }
+  .low-nav {
+    padding: 1em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 }
 
 @media (max-width: 991px) {
@@ -4218,6 +4225,7 @@ tbody.collapse.show {
   }
   .card-group .card:first-child .card-img-top {
     border-top-right-radius: 0;
+    width: 100px;
   }
   .card-group .card:first-child .card-img-bottom {
     border-bottom-right-radius: 0;

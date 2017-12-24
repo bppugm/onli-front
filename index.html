@@ -9,16 +9,7 @@
 <!--core-->
     <link href="https://davieiycode.github.io/onli/assets/css/bootstrap.css" rel="stylesheet">
 <!--icon-->
-    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
-<!--favicons-->
-	<link rel="apple-touch-icon" href="https://davieiycode.github.io/onli/assets/img/webkit/ico-clr.svg" sizes="180x180">
-	<link rel="icon" href="https://davieiycode.github.io/onli/assets/img/webkit/ico-clr.svg" sizes="32x32" type="image/png">
-	<link rel="icon" href="https://davieiycode.github.io/onli/assets/img/webkit/ico-clr.svg" sizes="16x16" type="image/png">
-	<link rel="manifest" href="https://getbootstrap.comhttps://davieiycode.github.io/onli/assets/img/favicons/manifest.json">
-	<link rel="mask-icon" href="https://davieiycode.github.io/onli/assets/img/webkit/ico-clr.svg" color="#563d7c">
-	<link rel="icon" href="https://davieiycode.github.io/onli/assets/img/webkit/ico-clr.svg">
-	<meta name="msapplication-config" content="https://davieiycode.github.io/onli/assets/img/favicons/browserconfig.xml">
-	<meta name="theme-color" content="#563d7c">
+    <link href="https://davieiycode.github.io/onli/assets/ico/web-fonts-with-css/css/fontawesome.min.css" rel="stylesheet">
 </head>
 <body>
 	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
@@ -29,11 +20,12 @@
 		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
+					<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a>
 					<div class="dropdown-menu" aria-labelledby="dropdown01">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
+						<a class="dropdown-item" href="#">Agroforestry</a>
+						<a class="dropdown-item" href="#">Health</a>
+						<a class="dropdown-item" href="#">Social Humaniora</a>
+						<a class="dropdown-item" href="#">STEM</a>
 					</div>
 				</li>
 				<li class="nav-item">
@@ -50,9 +42,18 @@
 		<div class="container py-5">
 			<h1>UGM Online Library</h1>
 			<p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-			<form class="form-inline my-sm-5">
-				<input class="form-control mr-sm-2" type="text" placeholder="Search by title, topic, author, affiliation, keyword, etc" aria-label="Search" style="width: 500px"><br><button type="button" class="btn btn-outline-primary">Advanced search</button>
-			</form>
+			<div class="col-lg-6">
+			<div class="input-group">
+				<div class="input-group-btn">
+					<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search
+						<span class="sr-only">Toggle Dropdown</span>
+					</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Advanced search</a>
+					</div>
+				</div>
+				<input type="text" class="form-control" placeholder="Title, topic, author, affiliation, keyword, etc" aria-label="Title, topic, author, affiliation, keyword, etc">
+			</div>
 		</div>
 	</section>
 <!--news-->
@@ -63,16 +64,16 @@
 				<h5>RECENT ARTICLES</h5>
 				<div class="list-group">
 					<a href="https://davieiycode.github.io/onli/docs/201707/01.html" class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-left-0 border-right-0">
-						<p class="mb-1">The Wireless Energy Transfer recharging system based on the ultra-high frequency by using Yagi-Uda directional antenna</p>
-						<small class="text-primary">Sunarno ; Fahmy Rinanda Saputri ; Memory Motivanisman Waruwu ; Rony Wijaya</small>
+						<p class="mb-1">Lorem ipsum dolor sit amet eum porro percipitur in sit id quando animal eu homero nullam pro pri id idque</p>
+						<small class="text-primary">Lorem Ipsum ; Dolor Sit Amet ; Eu Vix Stet</small>
 					</a>
 					<a href="https://davieiycode.github.io/onli/docs/201707/01.html" class="list-group-item list-group-item-action flex-column align-items-start border-left-0 border-right-0">
-						<p class="mb-1">Data service orchestration for law enforcement and open criminal justice data interoperability (National Crime Information Center, Indonesian National Police case studies)</p>
-						<small class="text-primary">Muhammad Angga Rinjani ; Teguh Bharata Adji ; Adhistya Erna Permanasari ; Fahmi Dzikrullah</small>
+						<p class="mb-1">Lorem ipsum dolor sit amet eum porro percipitur in sit id quando animal eu homero nullam pro pri id idque</p>
+						<small class="text-primary">Lorem Ipsum ; Dolor Sit Amet ; Eu Vix Stet</small>
 					</a>
 					<a href="https://davieiycode.github.io/onli/docs/201707/01.html" class="list-group-item list-group-item-action flex-column align-items-start border-left-0 border-right-0">
-						<p class="mb-1">The Wireless Energy Transfer recharging system based on the ultra-high frequency by using Yagi-Uda directional antenna</p>
-						<small class="text-primary">Sunarno ; Fahmy Rinanda Saputri ; Memory Motivanisman Waruwu ; Rony Wijaya</small>
+						<p class="mb-1">Lorem ipsum dolor sit amet eum porro percipitur in sit id quando animal eu homero nullam pro pri id idque</p>
+						<small class="text-primary">Lorem Ipsum ; Dolor Sit Amet ; Eu Vix Stet</small>
 					</a>
 				</div>
 				<button class="btn btn-outline-success my-2">More articles</button>
@@ -156,7 +157,7 @@
     	</nav>
 	</section>
 <!--/.container-->
-<!--bootstrap-->
+<!--bootstrap core js-->
 <!--placed at the end of the document so the pages load faster-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
