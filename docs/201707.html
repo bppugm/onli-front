@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../assets/css/fontawesome-all.css">
 </head>
 <body>
+<!--navigation-->
 	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
 		<a class="navbar-brand" href="../index.html"><img src="../assets/img/webkit/icotext-clr.svg" height="40px" alt="Online Library"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,11 +39,11 @@
 		</div>
     </nav>
 <!--book-->
-	<section>
-		<div class="row pt-5">
+	<div class="container pt-5">
+		<section class="row">
 	<!--preview-->
-			<div class="container col-sm-3 p-5">
-				<img class="card-img-top" src="../assets/img/books/fig1.jpg" alt="ICST 2017 Proceeding" title="Proceeding of the 3rd International Conference on Science and Technology">
+			<div class="col-sm-3 p-5">
+				<img class="card-img-top pb-5" src="../assets/img/books/fig1.jpg" alt="ICST 2017 Proceeding" title="Proceeding of the 3rd International Conference on Science and Technology">
 				<small><strong>Date of conference:</strong><br>11-12 July 2017<br>
 					<strong>Conference location:</strong><br>Yogyakarta, Indonesia<br>
 					<strong>Editor in chief:</strong><br>Prof. Coba Coba Dulu<br>
@@ -55,12 +56,12 @@
 				</small>
 			</div>
 	<!--details-->
-			<div class="container col-sm-6 pt-5 p-5">
+			<div class="col-sm-6 pt-5">
 				<h5>Proceeding of the 3<sup>rd</sup> International Conference on Science and Technology</h5>
 				<p>Lorem ipsum dolor sit amet, eu oportere sententiae complectitur his. Brute harum sea eu, ne usu euripidis instructior. No cum tempor labore nostrud, id his magna error essent. Dictas splendide ne vim, aeque utinam pro an, denique dignissim has ex. Mei cu affert tempor, menandri principes an vix. At lorem iudicabit mea, ad impetus virtute nam, facilis delicata an quo. Tollit aliquam eum ea. Id facer elaboraret eos, persius eripuit ocurreret sed ne. Per et congue fastidii, ne vel veritus lobortis periculis. Mel at idque forensibus suscipiantur, decore eleifend cu vix. Eos eu tale dolorum. Eu sed commodo nominati reprehendunt. Vix ei veri everti debitis. Propriae posidonium sit te. In illum signiferumque sit. Primis consulatu ut vim. Vim in autem latine lucilius, id mea facete animal democritum. Ut mel scripta nominati, vim in decore mollis, purto vivendum at cum. Purto senserit no usu, nonumes accommodare et vim, meis dissentiunt te sea. Vel ei copiosae imperdiet, doming audiam euismod eum in. Et est nihil contentiones. Nec et modo munere aliquando, dicunt appareat nam at.</p>
 	<!--table of contents-->
-				<h5 class="pt-3 pl-1 pr-1">Table of contents</h5>
-				<div class="list-group p-1">
+				<h5 class="pt-3">Table of contents</h5>
+				<div class="list-group">
 					<a href="../docs/201707-01.html" class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-left-0 border-right-0">
 						<div class="d-flex w-100 justify-content-between">
 							<p class="mb-1">Lorem ipsum dolor sit amet eum porro percipitur in sit id quando animal eu homero nullam pro pri id idque</p>
@@ -125,46 +126,46 @@
 				<button class="btn btn-outline-success my-2">More articles</button>
 			</div>
 	<!--filter-->
-			<div class="jumbotron container col-xl-3 p-5">
+			<div class="jumbotron col-sm-3">
 				<h5>Filter</h5>
 				<form class="form-inline">
 					<input class="form-control mr-sm-2" type="text" placeholder="Search within result" aria-label="Search">
 				</form>
 			</div>
-		</div>
-	</section>
+		</section>
+	</div>
 <!--bookshelf-->
-	<section class="jumbotron-book p-5">
-		<div class="row">
-			<div class="container col-sm-4 py-5">
-				<h4>Related proceedings</h4>
-				<p>View the related proceedings from our international and national conferences.</p>
-				<button type="button m-sm-0" class="btn btn-outline-primary">View all</button>
-			</div>
-			<div class="container col-sm-8">
-				<div class="card-deck">
-					<div class="card">
-						<a href="../docs/201707.html"><img class="card-img-top" src="../assets/img/books/fig1.jpg" alt="ICST 2017 Proceeding" title="Proceeding of the 3rd International Conference on Science and Technology"></a>
-					</div>
-					<div class="card">
-						<a href="../docs/201707.html"><img class="card-img-top" src="../assets/img/books/fig2.jpg" alt="ICHS 2017 Proceeding" title="Proceeding of the 2nd International Conference on Health Sciences"></a>
-					</div>
-					<div class="card">
-						<a href="../docs/201707.html"><img class="card-img-top" src="../assets/img/books/fig3.jpg" alt="ICSEAS 2017 Proceeding" title="Proceeding of the 2nd International Conference on South East Asia Studies"></a>
-					</div>
-					<div class="card">
-						<a href="../docs/201707.html"><img class="card-img-top" src="../assets/img/books/fig4.jpg" alt="ICTA 2017 Proceeding" title="Proceeding of the 2nd International Conference on Tropical Agriculture"></a>
+	<div class="container-fluid">
+		<section class="jumbotron-book p-5">
+			<div class="row">
+				<div class="col-sm-4 pb-5">
+					<h4>Related proceedings</h4>
+					<p>View the related proceedings from our international and national conferences.</p>
+					<button type="button m-sm-0" class="btn btn-outline-primary">View all</button>
+				</div>
+				<div class="col-sm-8">
+					<div class="card-deck">
+						<div class="card">
+							<a href="../docs/201707.html"><img class="card-img-top" src="../assets/img/books/fig1.jpg" alt="ICST 2017 Proceeding" title="Proceeding of the 3rd International Conference on Science and Technology"></a>
+						</div>
+						<div class="card">
+							<a href="../docs/201707.html"><img class="card-img-top" src="../assets/img/books/fig2.jpg" alt="ICHS 2017 Proceeding" title="Proceeding of the 2nd International Conference on Health Sciences"></a>
+						</div>
+						<div class="card">
+							<a href="../docs/201707.html"><img class="card-img-top" src="../assets/img/books/fig3.jpg" alt="ICSEAS 2017 Proceeding" title="Proceeding of the 2nd International Conference on South East Asia Studies"></a>
+						</div>
+						<div class="card">
+							<a href="../docs/201707.html"><img class="card-img-top" src="../assets/img/books/fig4.jpg" alt="ICTA 2017 Proceeding" title="Proceeding of the 2nd International Conference on Tropical Agriculture"></a>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+	</div>
 <!--footer-->
-	<section>
+	<section class="container-fluid">
 		<div class="jumbotron-gold py-5 p-md-5">
-			<div class="container">
 				<button type="button m-sm-0" class="btn btn-primary">Subscribe</button>
-			</div>
 		</div>
 	</section>
 <!--lower navigation-->

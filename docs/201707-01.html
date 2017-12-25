@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="../assets/css/fontawesome-all.css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+<!--navigation-->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 		<a class="navbar-brand" href="../index.html"><img src="../assets/img/webkit/icotext-clr.svg" height="40px" alt="Online Library"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -37,11 +38,11 @@
 			</ul>
 		</div>
     </nav>
-<!--book-->
-	<section>
-		<div class="row pt-5">
-	<!--article-->
-			<div class="container col-sm-9 p-5">
+<!--article-->
+	<div class="container">
+		<section class="row pt-5">
+	<!--contents-->
+			<div class="col-sm-9">
 				<h5>Lorem ipsum dolor sit amet eum porro percipitur in sit id quando animal eu homero nullam pro pri id idque</h5>
 				<small class="text-primary">Lorem Ipsum<sup>1</sup>; Dolor Sit Amet<sup>2</sup>; Eu Vix Stet<sup>3</sup></small><br>
 				<small><sup>1</sup> Lorem ipsum dolor sit amet, ut ludus<br>
@@ -52,72 +53,74 @@
 				<h5>Keywords</h5>
 				<p>lorem, ipsum, dolor, sit, amet</p>
 			</div>
-	<!--sidebar-->
-			<div class="jumbotron col-xl-3 p-5">
-			<div class="container">
+	<!--details-->
+			<div class="col-xl-3 pb-5">
 				<div class="list-group">
 					<button type="button" class="list-group-item list-group-item-action active"><i class="fa fa-file-alt"></i> Download PDF</button>
 					<button type="button" class="list-group-item list-group-item-action"><i class="fa fa-bookmark"></i> Cite this article</button>
 					<button type="button" class="list-group-item list-group-item-action"><i class="fa fa-share-square"></i> Share</button>
 					<button type="button" class="list-group-item list-group-item-action"><i class="fa fa-print"></i> Print</button>
 				</div>
-				<a href="../docs/201707/index.html"><img class="card-img-top p-5" src="../assets/img/books/fig1.jpg" alt="ICST 2017 Proceeding" title="Proceeding of the 3rd International Conference on Science and Technology"></a>
+				<a href="../docs/201707.html"><img class="card-img-top p-5" src="../assets/img/books/fig1.jpg" alt="ICST 2017 Proceeding" title="Proceeding of the 3rd International Conference on Science and Technology"></a>
 				<small><strong>Added to OnLi:</strong><br>21 December 2017<br>
 					<strong>eISBN:</strong><br>123-4-5678-9012-3<br>
 					<strong>PoD ISBN:</strong><br>456-7-8901-2345-6<br>
 					<strong>Indexed by:</strong><br>Google Scholar
 				</small>
-			</div></div>
-	</section>
-<!--bookshelf-->
-	<section class="jumbotron-book p-5">
-		<div class="row">
-			<div class="container col-sm-4 py-5">
-				<h4>Related articles</h4>
-				<p>View the related articles from our international and national conferences.</p>
-				<button type="button m-sm-0" class="btn btn-outline-primary">View all</button>
 			</div>
-			<div class="container col-sm-8">
-				<div class="card-group">
-					<div class="card border">
-						<div class="card-body">
-							<h4 class="card-title">Card title</h4>
-							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+		</section>
+	</div>
+<!--bookshelf-->
+	<div class="container-fluid">
+		<section class="jumbotron-book p-5">
+			<div class="row">
+				<div class="col-sm-4 pb-5">
+					<h4>Related articles</h4>
+					<p>View the related articles from our international and national conferences.</p>
+					<button type="button m-sm-0" class="btn btn-outline-primary">View all</button>
+				</div>
+				<div class="col-sm-8">
+					<div class="card-group">
+						<div class="card border">
+							<div class="card-body">
+								<h4 class="card-title">Card title</h4>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+							<div class="card-footer">
+								<small class="text-muted">Last updated 3 mins ago</small>
+							</div>
 						</div>
-						<div class="card-footer">
-							<small class="text-muted">Last updated 3 mins ago</small>
+						<div class="card">
+							<div class="card-body">
+								<h4 class="card-title">Card title</h4>
+								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							</div>
+							<div class="card-footer">
+								<small class="text-muted">Last updated 3 mins ago</small>
+							</div>
 						</div>
-					</div>
-					<div class="card">
-						<div class="card-body">
-							<h4 class="card-title">Card title</h4>
-							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-						</div>
-						<div class="card-footer">
-							<small class="text-muted">Last updated 3 mins ago</small>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-body">
-							<h4 class="card-title">Card title</h4>
-							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-						</div>
-						<div class="card-footer">
-							<small class="text-muted">Last updated 3 mins ago</small>
+						<div class="card">
+							<div class="card-body">
+								<h4 class="card-title">Card title</h4>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+							</div>
+							<div class="card-footer">
+								<small class="text-muted">Last updated 3 mins ago</small>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</section>
+	</div>
+<!--footer-->
+	<section class="container-fluid">
+		<div class="jumbotron-gold py-5 p-md-5">
+				<button type="button m-sm-0" class="btn btn-primary">Subscribe</button>
 		</div>
 	</section>
-<!--footer-->
-	<section>
-		<div class="jumbotron-gold py-5 p-md-5">
-			<div class="container">
-				<button type="button m-sm-0" class="btn btn-primary">Subscribe</button>
-			</div>
-		</div>
-	<!--lower navigation-->
+<!--lower navigation-->
+	<section class="footer">
 		<nav class="navbar navbar-expand-md navbar-dark bg-blue">
 			<ul class="navbar-nav">
 				<span class="navbar-text">©2017 UGM Press - Universitas Gadjah Mada</span>

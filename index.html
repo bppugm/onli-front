@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="./assets/css/fontawesome-all.css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+<!--navigation-->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 		<a class="navbar-brand" href="./index.html"><img src="./assets/img/webkit/icotext-clr.svg" height="40px" alt="Online Library"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -38,29 +39,30 @@
 		</div>
     </nav>
 <!--general search-->
-	<section class="jumbotron-head pt-5">
-		<div class="container py-5">
-			<h1>UGM Online Library</h1>
-			<p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+	<div class="container-fluid">
+		<section class="jumbotron-head p-3">
+			<h1 class="p-3">UGM Online Library</h1>
+			<p class="lead p-3">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
 			<div class="col-lg-6">
-			<div class="input-group">
-				<div class="input-group-btn">
-					<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search
-						<span class="sr-only">Toggle Dropdown</span>
-					</button>
-					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">Advanced search</a>
+				<div class="input-group">
+					<div class="input-group-btn">
+						<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search
+							<span class="sr-only">Toggle Dropdown</span>
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Advanced search</a>
+						</div>
 					</div>
+					<input type="text" class="form-control" placeholder="Title, topic, author, affiliation, keyword, etc" aria-label="Title, topic, author, affiliation, keyword, etc">
 				</div>
-				<input type="text" class="form-control" placeholder="Title, topic, author, affiliation, keyword, etc" aria-label="Title, topic, author, affiliation, keyword, etc">
 			</div>
-		</div>
-	</section>
+		</section>
+	</div>
 <!--news-->
-	<section>
-		<div class="row p-5">
+	<section class="container">
+		<div class="row p-3">
 	<!--recent articles-->
-			<div class="container col-sm-8">
+			<div class="col-sm-8 py-5">
 				<h5>RECENT ARTICLES</h5>
 				<div class="list-group">
 					<a href="./docs/201707-01.html" class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-left-0 border-right-0">
@@ -79,7 +81,7 @@
 				<button class="btn btn-outline-success my-2">More articles</button>
 			</div>
 	<!--upcoming conferences-->
-			<div class="container col-sm-4">
+			<div class="col-sm-4 py-5">
 				<h5>UPCOMING CONFERENCES</h5>
 				<div class="list-group">
 					<a href="#" class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-left-0 border-right-0">
@@ -100,37 +102,37 @@
 		</div>
 	</section>
 <!--bookshelf-->
-	<section class="jumbotron-book p-5">
-		<div class="row">
-			<div class="container col-sm-4 py-5">
-				<h4>Latest proceedings</h4>
-				<p>View the latest published proceedings from our international and national conferences.</p>
-				<button type="button m-sm-0" class="btn btn-outline-primary">View all</button>
-			</div>
-			<div class="container col-sm-8">
-				<div class="card-deck">
-					<div class="card">
-						<a href="./docs/201707.html"><img class="card-img-top" src="./assets/img/books/fig1.jpg" alt="ICST 2017 Proceeding" title="Proceeding of the 3rd International Conference on Science and Technology"></a>
-					</div>
-					<div class="card">
-						<a href="./docs/201707.html"><img class="card-img-top" src="./assets/img/books/fig2.jpg" alt="ICHS 2017 Proceeding" title="Proceeding of the 2nd International Conference on Health Sciences"></a>
-					</div>
-					<div class="card">
-						<a href="./docs/201707.html"><img class="card-img-top" src="./assets/img/books/fig3.jpg" alt="ICSEAS 2017 Proceeding" title="Proceeding of the 2nd International Conference on South East Asia Studies"></a>
-					</div>
-					<div class="card">
-						<a href="./docs/201707.html"><img class="card-img-top" src="./assets/img/books/fig4.jpg" alt="ICTA 2017 Proceeding" title="Proceeding of the 2nd International Conference on Tropical Agriculture"></a>
+	<div class="container-fluid">
+		<section class="jumbotron-book p-5">
+			<div class="row">
+				<div class="col-sm-4 pb-5">
+					<h4>Latest proceedings</h4>
+					<p>View the latest published proceedings from our international and national conferences.</p>
+					<button type="button m-sm-0" class="btn btn-outline-primary">View all</button>
+				</div>
+				<div class="container col-sm-8">
+					<div class="card-deck">
+						<div class="card">
+							<a href="./docs/201707.html"><img class="card-img-top" src="./assets/img/books/fig1.jpg" alt="ICST 2017 Proceeding" title="Proceeding of the 3rd International Conference on Science and Technology"></a>
+						</div>
+						<div class="card">
+							<a href="./docs/201707.html"><img class="card-img-top" src="./assets/img/books/fig2.jpg" alt="ICHS 2017 Proceeding" title="Proceeding of the 2nd International Conference on Health Sciences"></a>
+						</div>
+						<div class="card">
+							<a href="./docs/201707.html"><img class="card-img-top" src="./assets/img/books/fig3.jpg" alt="ICSEAS 2017 Proceeding" title="Proceeding of the 2nd International Conference on South East Asia Studies"></a>
+						</div>
+						<div class="card">
+							<a href="./docs/201707.html"><img class="card-img-top" src="./assets/img/books/fig4.jpg" alt="ICTA 2017 Proceeding" title="Proceeding of the 2nd International Conference on Tropical Agriculture"></a>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+	</div>
 <!--footer-->
-	<section>
+	<section class="container-fluid">
 		<div class="jumbotron-gold py-5 p-md-5">
-			<div class="container">
 				<button type="button m-sm-0" class="btn btn-primary">Subscribe</button>
-			</div>
 		</div>
 	</section>
 <!--lower navigation-->
