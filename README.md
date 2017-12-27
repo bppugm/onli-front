@@ -10,6 +10,6 @@ This website is currently under development.<br>
 Built using Sublime<br>
 Based on Bootstrap v4.0.0-beta.2<br>
 <h3>Icon</h3>
-Font Awesome, Multiple licence.<br>
+Font Awesome 5, Multiple licence.<br>
 <h3>License</h3>
 © 2017 Rafieiy under the MIT License.
