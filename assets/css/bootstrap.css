@@ -4351,6 +4351,13 @@ tbody.collapse.show {
   border-radius: 0;
 }
 
+.jumbotron-blue {
+  padding-right: 0;
+  padding-left: 0;
+  background-color: #3b77a4;
+  border-radius: 0;
+}
+
 .jumbotron-fluid {
   padding-right: 0;
   padding-left: 0;
