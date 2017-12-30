@@ -7,7 +7,7 @@ This website is currently under development.<br>
 <h4>Supporting contributors</h4>
 @w1lldone<br>
 <h3>Development</h3>
-Built using Sublime<br>
+Built using Atom 1.23.1<br>
 Based on Bootstrap v4.0.0-beta.2<br>
 <h3>Icon</h3>
 Font Awesome 5, Multiple licence.<br>
