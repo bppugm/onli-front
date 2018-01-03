@@ -5,6 +5,7 @@ This website is currently under development.<br>
 <h4>Main contributors</h4>
 @davieiycode<br>
 <h4>Supporting contributors</h4>
+@akhsin<br>
 @w1lldone<br>
 <h3>Development</h3>
 Built using Atom 1.23.1<br>
