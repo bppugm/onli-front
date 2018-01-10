@@ -51,7 +51,7 @@
     </nav>
     <section class="row">
       <!--contents-->
-      <div class="col-sm-9">
+      <div class="col-lg-9">
         <h5>Story of my life</h5>
         <small class="text-primary">Julian Bunetta<sup>1</sup>; Jamie Scott<sup>1</sup>; John Ryan<sup>1</sup>; Louis Tomlinson<sup>2</sup>; Liam Payne<sup>2</sup>; Niall Horan<sup>2</sup>; Harry Styles<sup>2</sup>; Zayn Malik<sup>2</sup></small><br>
         <small><sup>1</sup> Syco Music<br>
@@ -68,7 +68,7 @@
         <p>story, life, heart, night, morning</p>
       </div>
       <!--details-->
-      <div class="col-xl-3 pb-5 d-none d-lg-block">
+      <div class="col-lg-3 pb-5 d-none d-lg-block">
         <div class="list-group">
           <button type="button" class="list-group-item list-group-item-action active"><i class="fa fa-file-alt pr-3"></i>Download PDF</button>
           <button type="button" class="list-group-item list-group-item-action"><i class="fa fa-bookmark pr-3"></i>Cite this article</button>
@@ -84,18 +84,22 @@
       </div>
     </section>
   </div>
-  <div class="navbar navbar-expand-md navbar-light bg-light btn-group d-block d-lg-none fixed-bottom" role="group" aria-label="Button group with nested dropdown">
-    <button type="button" class="btn btn-outline-secondary"><i class="fa fa-file-alt pr-3"></i></button>
-    <button type="button" class="btn btn-outline-secondary"><i class="fa fa-bookmark pr-3"></i></button>
-    <button type="button" class="btn btn-outline-secondary"><i class="fa fa-print pr-2"></i></button>
-    <div class="btn-group" role="group">
-      <button id="btnGroupDrop1" type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-share-square pr-2"></i>
-    </button>
-      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-        <a class="dropdown-item" href="#">Dropdown link</a>
-        <a class="dropdown-item" href="#">Dropdown link</a>
+  <div>
+    <ul class="nav nav-fill fixed-bottom bg-light d-lg-none py-2">
+      <li class="nav-item"><a class="nav-link" href="../docs/201707.html"><i class="fa fa-file-alt"></i></a></li>
+      <li class="nav-item"><a class="nav-link" href="../docs/201707.html"><i class="fa fa-bookmark"></i></a></li>
+      <li class="nav-item"><a class="nav-link" href="../docs/201707.html"><i class="fa fa-print"></i></a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-share-square"></i></a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </li>
       </div>
-    </div>
   </div>
   <!--bookshelf-->
   <div class="jumbotron-book">
@@ -141,13 +145,13 @@
     </section>
   </div>
   <!--footer-->
-  <section class="jumbotron-gold">
+  <section class="jumbotron-gold d-none d-lg-block">
     <div class="container py-5 p-md-5">
       <button type="button m-sm-0" class="btn btn-primary">Subscribe</button>
     </div>
   </section>
   <!--lower navigation-->
-  <section class="footer">
+  <section class="footer d-none d-lg-block">
     <nav class="navbar navbar-expand-md navbar-dark bg-blue">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
