@@ -15,12 +15,12 @@
 
 <body>
 	<!--navigation-->
-	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
 		<a class="navbar-brand" href="./index.html"><img src="./assets/img/webkit/icotext-clr.svg" height="40px" alt="Online Library"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navHead" aria-controls="navHead" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<div class="collapse navbar-collapse" id="navHead">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a>
@@ -41,24 +41,18 @@
 		</div>
 	</nav>
 	<!--general search-->
-	<div class="jumbotron-head">
-		<section class="container p-3">
-			<h1 class="p-3">UGM Online Library</h1>
-			<p class="lead p-3">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+	<div class="jumbotron-head py-5">
+		<section class="container py-5">
+			<h1 class="text-center py-5 text-light">Read. Learn. Discover</h1>
 			<div class="col-lg-6 m-auto">
-				<div class="input-group">
-					<div class="input-group-btn">
-						<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search
-							<span class="sr-only">Toggle Dropdown</span>
-						</button>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="#">Advanced search</a>
-						</div>
-					</div>
-					<input type="text" class="form-control" placeholder="Title, topic, author, affiliation, keyword, etc" aria-label="Title, topic, author, affiliation, keyword, etc">
+				<div class="form-group pt-5">
+					<input type="text" class="form-control form-control-lg" placeholder="Search title, topic, author, affiliation, keyword, etc">
 				</div>
+				<button type="submit" class="btn btn-primary">Search</button>
+				<button type="submit" class="btn btn-secondary">Advanced search</button>
 			</div>
-		</section>
+	</div>
+	</section>
 	</div>
 	<!--news-->
 	<section class="container">
@@ -67,17 +61,17 @@
 			<div class="col-sm-8 py-5">
 				<h5 class="text-uppercase">Recent articles</h5>
 				<div class="list-group">
-					<a href="./docs/201707-01.html" class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-left-0 border-right-0">
-						<p class="mb-1">Lorem ipsum dolor sit amet eum porro percipitur in sit id quando animal eu homero nullam pro pri id idque</p>
-						<small class="text-primary">Lorem Ipsum ; Dolor Sit Amet ; Eu Vix Stet</small>
+					<a href="./docs/01.html" class="list-group-item list-group-item-action flex-column align-items-start border-top-0 border-left-0 border-right-0">
+						<p class="mb-1">Story of my life</p>
+						<small class="text-primary">Julian Bunetta; Jamie Scott; John Ryan; Louis Tomlinson; Liam Payne; Niall Horan; Harry Styles; Zayn Malik</small>
 					</a>
-					<a href="./docs/201707-01.html" class="list-group-item list-group-item-action flex-column align-items-start border-left-0 border-right-0">
-						<p class="mb-1">Lorem ipsum dolor sit amet eum porro percipitur in sit id quando animal eu homero nullam pro pri id idque</p>
-						<small class="text-primary">Lorem Ipsum ; Dolor Sit Amet ; Eu Vix Stet</small>
+					<a href="./docs/02.html" class="list-group-item list-group-item-action flex-column align-items-start border-left-0 border-right-0">
+						<p class="mb-1">Little things</p>
+						<small class="text-primary">Edward Christopher Sheeran; Fiona Mackay Barclay Bevan</small>
 					</a>
-					<a href="./docs/201707-01.html" class="list-group-item list-group-item-action flex-column align-items-start border-left-0 border-right-0">
-						<p class="mb-1">Lorem ipsum dolor sit amet eum porro percipitur in sit id quando animal eu homero nullam pro pri id idque</p>
-						<small class="text-primary">Lorem Ipsum ; Dolor Sit Amet ; Eu Vix Stet</small>
+					<a href="./docs/03.html" class="list-group-item list-group-item-action flex-column align-items-start border-left-0 border-right-0">
+						<p class="mb-1">Perfect</p>
+						<small class="text-primary">Edward Christopher Sheeran; Matthew Sheeran</small>
 					</a>
 				</div>
 				<button class="btn btn-none-primary my-2">More articles<i class="fa fa-chevron-circle-right pl-3"></i></button>
