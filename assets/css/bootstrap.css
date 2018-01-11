@@ -3538,6 +3538,10 @@ tbody.collapse.show {
     right: 0;
     left: auto;
   }
+  .navbar-expand-sm .navbar-nav .dropdown-menu-center {
+    right: 0;
+    left: 0;
+  }
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: .5rem;
     padding-left: .5rem;
@@ -3585,6 +3589,10 @@ tbody.collapse.show {
   .navbar-expand-md .navbar-nav .dropdown-menu-right {
     right: 0;
     left: auto;
+  }
+  .navbar-expand-sm .navbar-nav .dropdown-menu-center {
+    right: 0;
+    left: 0;
   }
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: .5rem;
@@ -3641,6 +3649,10 @@ tbody.collapse.show {
     right: 0;
     left: auto;
   }
+  .navbar-expand-sm .navbar-nav .dropdown-menu-center {
+    right: 0;
+    left: 0;
+  }
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: .5rem;
     padding-left: .5rem;
@@ -3689,6 +3701,10 @@ tbody.collapse.show {
     right: 0;
     left: auto;
   }
+  .navbar-expand-sm .navbar-nav .dropdown-menu-center {
+    right: 0;
+    left: 0;
+  }
   .navbar-expand-xl .navbar-nav .nav-link {
     padding-right: .5rem;
     padding-left: .5rem;
@@ -3736,6 +3752,11 @@ tbody.collapse.show {
 .navbar-expand .navbar-nav .dropdown-menu-right {
   right: 0;
   left: auto;
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu-center {
+  right: 0;
+  left: 0;
 }
 
 .navbar-expand .navbar-nav .nav-link {
@@ -4094,8 +4115,6 @@ tbody.collapse.show {
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
   list-style: none;
-  background-color: #e9ecef;
-  border-radius: 0.25rem;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
