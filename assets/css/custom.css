@@ -35,13 +35,11 @@
 .jumbotron-head {
   padding-right: 0;
   padding-left: 0;
-  background: url("../img/webkit/jumbohead-0.jpg") no-repeat center center fixed;
+  background: url("../img/webkit/jumbohead.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-/*  background-color: rgb(253, 213, 95);
-  border-radius: 0;*/
   height: 100vh;
 }
 
