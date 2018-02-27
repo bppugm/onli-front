@@ -120,4 +120,154 @@ a.bg-blue:focus, a.bg-blue:hover {
   color: rgba(0, 0, 0, 0.9);
 }
 
+.book {
+  border:none;
+}
+
+.book:hover {
+  position: relative;
+  transform: rotateY(30deg);
+  perspective: 100px;
+  border-left: lightslategrey solid 30px;
+  border-radius: 5px;
+  float: left;
+  transition: all 250ms ease-out;
+  box-shadow: 0px 2px 1px 20px rgba(black, 0.3);
+  margin-left: -10px;
+}
+
+.card-deck {
+  padding-bottom: 25px;
+}
+
+.form-control-dark {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #6c757d;
+  background-clip: padding-box;
+  border: 1px solid #495057;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control-dark::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.form-control-dark:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ced4da;
+}
+
+.form-control-dark:disabled, .form-control-dark[readonly] {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+
+select.form-control-dark:not([size]):not([multiple]) {
+  height: calc(2.25rem + 2px);
+}
+
+select.form-control-dark:focus::-ms-value {
+  color: #495057;
+  background-color: #fff;
+}
+
+.form-control-dark-file,
+.form-control-dark-range {
+  display: block;
+  width: 100%;
+}
+
+.col-form-label {
+  padding-top: calc(0.375rem + 1px);
+  padding-bottom: calc(0.375rem + 1px);
+  margin-bottom: 0;
+  font-size: inherit;
+  line-height: 1.5;
+}
+
+.col-form-label-lg {
+  padding-top: calc(0.5rem + 1px);
+  padding-bottom: calc(0.5rem + 1px);
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.col-form-label-sm {
+  padding-top: calc(0.25rem + 1px);
+  padding-bottom: calc(0.25rem + 1px);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.form-control-dark-plaintext {
+  display: block;
+  width: 100%;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  margin-bottom: 0;
+  line-height: 1.5;
+  background-color: transparent;
+  border: solid transparent;
+  border-width: 1px 0;
+}
+
+.form-control-dark-plaintext.form-control-dark-sm, .input-group-sm > .form-control-dark-plaintext.form-control-dark,
+.input-group-sm > .input-group-prepend > .form-control-dark-plaintext.input-group-text,
+.input-group-sm > .input-group-append > .form-control-dark-plaintext.input-group-text,
+.input-group-sm > .input-group-prepend > .form-control-dark-plaintext.btn,
+.input-group-sm > .input-group-append > .form-control-dark-plaintext.btn, .form-control-dark-plaintext.form-control-dark-lg, .input-group-lg > .form-control-plaintext.form-control,
+.input-group-lg > .input-group-prepend > .form-control-dark-plaintext.input-group-text,
+.input-group-lg > .input-group-append > .form-control-dark-plaintext.input-group-text,
+.input-group-lg > .input-group-prepend > .form-control-dark-plaintext.btn,
+.input-group-lg > .input-group-append > .form-control-dark-plaintext.btn {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.form-control-dark-sm, .input-group-sm > .form-control-dark,
+.input-group-sm > .input-group-prepend > .input-group-text,
+.input-group-sm > .input-group-append > .input-group-text,
+.input-group-sm > .input-group-prepend > .btn,
+.input-group-sm > .input-group-append > .btn {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
+select.form-control-dark-sm:not([size]):not([multiple]), .input-group-sm > select.form-control-dark:not([size]):not([multiple]),
+.input-group-sm > .input-group-prepend > select.input-group-text:not([size]):not([multiple]),
+.input-group-sm > .input-group-append > select.input-group-text:not([size]):not([multiple]),
+.input-group-sm > .input-group-prepend > select.btn:not([size]):not([multiple]),
+.input-group-sm > .input-group-append > select.btn:not([size]):not([multiple]) {
+  height: calc(1.8125rem + 2px);
+}
+
+.form-control-dark-lg, .input-group-lg > .form-control-dark,
+.input-group-lg > .input-group-prepend > .input-group-text,
+.input-group-lg > .input-group-append > .input-group-text,
+.input-group-lg > .input-group-prepend > .btn,
+.input-group-lg > .input-group-append > .btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+select.form-control-dark-lg:not([size]):not([multiple]), .input-group-lg > select.form-control-dark:not([size]):not([multiple]),
+.input-group-lg > .input-group-prepend > select.input-group-text:not([size]):not([multiple]),
+.input-group-lg > .input-group-append > select.input-group-text:not([size]):not([multiple]),
+.input-group-lg > .input-group-prepend > select.btn:not([size]):not([multiple]),
+.input-group-lg > .input-group-append > select.btn:not([size]):not([multiple]) {
+  height: calc(2.875rem + 2px);
+}
+
 /*# sourceMappingURL=bootstrap.css.map */

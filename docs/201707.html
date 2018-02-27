@@ -16,9 +16,15 @@
 
 <body>
 	<!--navigation-->
-	<nav class="navbar navbar-expand-md navbar-primary bg-light fixed-top">
-		<a class="navbar-brand" href="../index.html"><img src="../assets/img/webkit/icotext-clr.svg" height="30px" alt="Online Library"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navHead" aria-controls="navHead" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navbar navbar-expand-md navbar-primary bg-dark fixed-top">
+		<a class="navbar-brand d-sm-none d-md-block" href="../index.html">
+			<img src="../assets/img/webkit/icotext-clr.svg" height="30px" alt="Online Library">
+		</a>
+		<div class="col-sm-8">
+			<input type="text " class="form-control-dark" placeholder="Search in ICSEAS 2017 Proceeding">
+		</div>
+		<button class="navbar-toggler align-items-start" type="button" data-toggle="collapse" data-target="#navHead" aria-controls="navHead" aria-expanded="false"
+		    aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navHead">
@@ -36,175 +42,279 @@
 					<a class="nav-link" href="#">Explore</a>
 				</li>
 				<li class="nav-item">
-					<a href="../sign.html"><button type="button" class="btn btn-primary">Sign in</button></a>
+					<a href="../sign.html">
+						<button type="button" class="btn btn-primary">Sign in</button>
+					</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
-	<!--book-->
-	<div class="container pt-5">
+	<!--book info-->
+	<div class="container pt-5 py-3">
 		<section class="row">
-			<!--preview-->
-			<div class="col-sm-3 p-5">
-				<img class="card-img-top pb-5" src="../assets/img/books/fig1.jpg" alt="ICST 2017 Proceeding" title="Proceeding of the 3rd International Conference on Science and Technology">
-				<small><strong>Date of conference:</strong><br>11-12 July 2017<br>
-					<strong>Conference location:</strong><br>Yogyakarta, Indonesia<br>
-					<strong>Editor in chief:</strong><br>Prof. Coba Coba Dulu<br>
-					<strong>Managing editor:</strong><br>Siapa Yang Mau ; Dialah Namanya<br>
-					<strong>Editorial board:</strong><br>Nama Pertama ; Nama Selanjutnya ; Ada Lagi Nggak<br>
-					<strong>Added to OnLi:</strong><br>21 December 2017<br>
-					<strong>eISBN:</strong><br>123-4-5678-9012-3<br>
-					<strong>PoD ISBN:</strong><br>456-7-8901-2345-6<br>
-					<strong>Indexed by:</strong><br>Google Scholar
-				</small>
+			<div class="col-sm-3 pt-5 d-none d-lg-block">
+				<img class="card-img-top" src="../assets/img/books/fig4.jpg" alt="ICST 2017 Proceeding" title="Proceeding of the 2nd International Conference on South East Asia Studies">
 			</div>
-			<!--details-->
-			<div class="col-sm-6 pt-5">
-				<h5>Proceeding of the 3<sup>rd</sup> International Conference on Science and Technology</h5>
-				<p>Lorem ipsum dolor sit amet, eu oportere sententiae complectitur his. Brute harum sea eu, ne usu euripidis instructior. No cum tempor labore nostrud, id his magna error essent. Dictas splendide ne vim, aeque utinam pro an, denique dignissim has ex.
-					Mei cu affert tempor, menandri principes an vix. At lorem iudicabit mea, ad impetus virtute nam, facilis delicata an quo. Tollit aliquam eum ea. Id facer elaboraret eos, persius eripuit ocurreret sed ne. Per et congue fastidii, ne vel veritus lobortis
-					periculis. Mel at idque forensibus suscipiantur, decore eleifend cu vix. Eos eu tale dolorum. Eu sed commodo nominati reprehendunt. Vix ei veri everti debitis. Propriae posidonium sit te. In illum signiferumque sit. Primis consulatu ut vim. Vim in
-					autem latine lucilius, id mea facete animal democritum. Ut mel scripta nominati, vim in decore mollis, purto vivendum at cum. Purto senserit no usu, nonumes accommodare et vim, meis dissentiunt te sea. Vel ei copiosae imperdiet, doming audiam euismod
-					eum in. Et est nihil contentiones. Nec et modo munere aliquando, dicunt appareat nam at.</p>
-				<!--table of contents-->
-				<h5 class="pt-3 text-uppercase">Table of contents</h5>
-				<div class="list-group">
-					<div class="list-group-item list-group-item-action border-0">
-						<div class="row">
-							<div class="col-sm-11">
-								<a href="../docs/201707-01.html" class="text-dark mb-1">Lorem ipsum dolor sit amet eum porro percipitur in sit id quando animal eu homero nullam pro pri id idque</a><br>
-								<small class="text-primary">Lorem Ipsum ; Dolor Sit Amet ; Eu Vix Stet</small>
-							</div>
-							<div class="col-sm-1">
-								<a href="../index.html" class="text-danger small">PDF</a>
-								<a class="small">1</a>
-							</div>
-						</div>
-					</div>
-					<div class="list-group-item list-group-item-action border-0">
-						<div class="row">
-							<div class="col-sm-11">
-								<a href="../docs/201707-01.html" class="text-dark mb-1">Lorem ipsum dolor sit amet eum porro percipitur in sit id quando animal eu homero nullam pro pri id idque</a><br>
-								<small class="text-primary">Lorem Ipsum ; Dolor Sit Amet ; Eu Vix Stet</small>
-							</div>
-							<div class="col-sm-1">
-								<a href="../index.html" class="text-danger small">PDF</a>
-								<a class="small">7</a>
-							</div>
-						</div>
-					</div>
-					<div class="list-group-item list-group-item-action border-0">
-						<div class="row">
-							<div class="col-sm-11">
-								<a href="../docs/201707-01.html" class="text-dark mb-1">Lorem ipsum dolor sit amet eum porro percipitur in sit id quando animal eu homero nullam pro pri id idque</a><br>
-								<small class="text-primary">Lorem Ipsum ; Dolor Sit Amet ; Eu Vix Stet</small>
-							</div>
-							<div class="col-sm-1">
-								<a href="../index.html" class="text-danger small">PDF</a>
-								<a class="small">13</a>
-							</div>
-						</div>
-					</div>
-					<div class="list-group-item list-group-item-action border-0">
-						<div class="row">
-							<div class="col-sm-11">
-								<a href="../docs/201707-01.html" class="text-dark mb-1">Lorem ipsum dolor sit amet eum porro percipitur in sit id quando animal eu homero nullam pro pri id idque</a><br>
-								<small class="text-primary">Lorem Ipsum ; Dolor Sit Amet ; Eu Vix Stet</small>
-							</div>
-							<div class="col-sm-1">
-								<a href="../index.html" class="text-danger small">PDF</a>
-								<a class="small">19</a>
-							</div>
-						</div>
-					</div>
-					<div class="list-group-item list-group-item-action border-0">
-						<div class="row">
-							<div class="col-sm-11">
-								<a href="../docs/201707-01.html" class="text-dark mb-1">Lorem ipsum dolor sit amet eum porro percipitur in sit id quando animal eu homero nullam pro pri id idque</a><br>
-								<small class="text-primary">Lorem Ipsum ; Dolor Sit Amet ; Eu Vix Stet</small>
-							</div>
-							<div class="col-sm-1">
-								<a href="../index.html" class="text-danger small">PDF</a>
-								<a class="small">25</a>
-							</div>
-						</div>
-					</div>
-					<div class="list-group-item list-group-item-action border-0">
-						<div class="row">
-							<div class="col-sm-11">
-								<a href="../docs/201707-01.html" class="text-dark mb-1">Lorem ipsum dolor sit amet eum porro percipitur in sit id quando animal eu homero nullam pro pri id idque</a><br>
-								<small class="text-primary">Lorem Ipsum ; Dolor Sit Amet ; Eu Vix Stet</small>
-							</div>
-							<div class="col-sm-1">
-								<a href="../index.html" class="text-danger small">PDF</a>
-								<a class="small">31</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<button class="btn btn-none-primary my-2">More articles<i class="fa fa-chevron-circle-right pl-3"></i></button>
-			</div>
-			<!--filter-->
-			<div class="jumbotron col-sm-3">
-				<h5>Filter</h5>
-				<form class="form-inline">
-					<input class="form-control mr-sm-2" type="text" placeholder="Search within result" aria-label="Search">
-				</form>
+			<div class="col-sm-9 pt-5">
+				<h5>Proceeding of the 2
+					<sup>nd</sup> International Conference on South East Asia Studies</h5>
+				<p class="text-justify">Lorem ipsum dolor sit amet, eu oportere sententiae complectitur his. Brute harum sea eu, ne usu euripidis instructior.
+					No cum tempor labore nostrud, id his magna error essent. Dictas splendide ne vim, aeque utinam pro an, denique dignissim
+					has ex. Mei cu affert tempor, menandri principes an vix. At lorem iudicabit mea, ad impetus virtute nam, facilis delicata
+					an quo. Tollit aliquam eum ea. Id facer elaboraret eos, persius eripuit ocurreret sed ne. Per et congue fastidii, ne
+					vel veritus lobortis periculis. Mel at idque forensibus suscipiantur, decore eleifend cu vix. Eos eu tale dolorum. Eu
+					sed commodo nominati reprehendunt. Vix ei veri everti debitis. Propriae posidonium sit te. In illum signiferumque sit.
+					Primis consulatu ut vim.</p>
+				<table class="small">
+					<tr>
+						<td>
+							<strong>Date of conference</strong>
+						</td>
+						<td>
+							<strong>:</strong>
+						</td>
+						<td>11&dash;12 July 2017</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>Conference location</strong>
+						</td>
+						<td>
+							<strong>:</strong>
+						</td>
+						<td>Yogyakarta, Indonesia</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>Editor in chief</strong>
+						</td>
+						<td>
+							<strong>:</strong>
+						</td>
+						<td>Prof. Coba Coba Dulu</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>Managing editor</strong>
+						</td>
+						<td>
+							<strong>:</strong>
+						</td>
+						<td>Siapa Yang Mau ; Dialah Namanya</td>
+					</tr>
+					<tr>
+
+					</tr>
+					<tr>
+						<td>
+							<strong>Added to OnLi</strong>
+						</td>
+						<td>
+							<strong>:</strong>
+						</td>
+						<td>21 December 2017</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>eISBN</strong>
+						</td>
+						<td>
+							<strong>:</strong>
+						</td>
+						<td>123-4-5678-9012-3</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>PoD ISBN</strong>
+						</td>
+						<td>
+							<strong>:</strong>
+						</td>
+						<td>456-7-8901-2345-6</td>
+					</tr>
+				</table>
 			</div>
 		</section>
 	</div>
+	<!--table of contents-->
+	<section class="container list-group py-3">
+		<div class="list-group-item list-group-item-action border-0 ">
+			<div class="row ">
+				<div class="col-md-9">
+					<a class="text-dark mb-1">Story of my life</a><br/>
+					<a class="small text-primary ">Julian Bunetta ; Jamie Scott ; John Ryan ; Louis Tomlinson ; Liam Payne ; Niall Horan ; Harry Styles ; Zayn Malik</a>
+				</div>
+				<div class="col-md-3 align-self-center">
+					<a href="../docs/01.html" class="btn btn-primary" role="button" aria-disabled="true">View</a>
+					<a href="../index.html" class="btn btn-danger" role="button" aria-disabled="true">PDF</a>
+					<a class="btn btn-light" role="button" aria-disabled="true">1&ndash;6</a>
+				</div>
+			</div>
+		</div>
+		<div class="list-group-item list-group-item-action border-0 ">
+			<div class="row ">
+				<div class="col-md-9">
+					<a class="text-dark mb-1 ">Little things</a><br/>
+					<a class="small text-primary ">Edward Christopher Sheeran ; Fiona Mackay Barclay Bevan</a>
+				</div>
+				<div class="col-md-3 align-self-center">
+					<a href="../docs/02.html" class="btn btn-primary" role="button" aria-disabled="true">View</a>
+					<a href="../index.html" class="btn btn-danger" role="button" aria-disabled="true">PDF</a>
+					<a class="btn btn-light" role="button" aria-disabled="true">7&ndash;12</a>
+				</div>
+			</div>
+		</div>
+		<div class="list-group-item list-group-item-action border-0 ">
+			<div class="row ">
+				<div class="col-md-9">
+					<a class="text-dark mb-1 ">Perfect</a><br/>
+					<a class="small text-primary ">Edward Christopher Sheeran ; Matthew Sheeran</a>
+				</div>
+				<div class="col-md-3 align-self-center">
+					<a href="../docs/03.html" class="btn btn-primary" role="button" aria-disabled="true">View</a>
+					<a href="../index.html" class="btn btn-danger" role="button" aria-disabled="true">PDF</a>
+					<a class="btn btn-light" role="button" aria-disabled="true">13&ndash;18</a>
+				</div>
+			</div>
+		</div>
+		<div class="list-group-item list-group-item-action border-0 ">
+			<div class="row ">
+				<div class="col-md-9">
+					<a class="text-dark mb-1 ">Thinking out loud</a><br/>
+					<a class="small text-primary ">Edward Christopher Sheeran ; Amy Wadge</a>
+				</div>
+				<div class="col-md-3 align-self-center">
+					<a href="../docs/04.html" class="btn btn-primary" role="button" aria-disabled="true">View</a>
+					<a href="../index.html" class="btn btn-danger" role="button" aria-disabled="true">PDF</a>
+					<a class="btn btn-light" role="button" aria-disabled="true">19&ndash;24</a>
+				</div>
+			</div>
+		</div>
+		<div class="list-group-item list-group-item-action border-0 ">
+			<div class="row ">
+				<div class="col-md-9">
+					<a class="text-dark mb-1 ">Unintended</a><br/>
+					<a class="small text-primary ">Matthew James Bellamy</a>
+				</div>
+				<div class="col-md-3 align-self-center">
+					<a href="../docs/05.html" class="btn btn-primary" role="button" aria-disabled="true">View</a>
+					<a href="../index.html" class="btn btn-danger" role="button" aria-disabled="true">PDF</a>
+					<a class="btn btn-light" role="button" aria-disabled="true">25&ndash;30</a>
+				</div>
+			</div>
+		</div>
+		<div class="list-group-item list-group-item-action border-0 ">
+			<div class="row ">
+				<div class="col-md-9">
+					<a class="text-dark mb-1 ">Beautiful in white</a><br/>
+					<a class="small text-primary ">Shane Filan</a>
+				</div>
+				<div class="col-md-3 align-self-center">
+					<a href="../docs/06.html" class="btn btn-primary" role="button" aria-disabled="true">View</a>
+					<a href="../index.html" class="btn btn-danger" role="button" aria-disabled="true">PDF</a>
+					<a class="btn btn-light" role="button" aria-disabled="true">31&ndash;36</a>
+				</div>
+			</div>
+		</div>
+		<div class="list-group-item list-group-item-action border-0 ">
+			<div class="row ">
+				<div class="col-md-9">
+					<a class="text-dark mb-1 ">Marry your daughter</a><br/>
+					<a class="small text-primary ">Brandon Barnes ; Cole Mcknight ; Brian Mcknight</a>
+				</div>
+				<div class="col-md-3 align-self-center">
+					<a href="../docs/07.html" class="btn btn-primary" role="button" aria-disabled="true">View</a>
+					<a href="../index.html" class="btn btn-danger" role="button" aria-disabled="true">PDF</a>
+					<a class="btn btn-light" role="button" aria-disabled="true">37&ndash;42</a>
+				</div>
+			</div>
+		</div>
+		<div class="list-group-item list-group-item-action border-0 ">
+			<div class="row ">
+				<div class="col-md-9">
+					<a class="text-dark mb-1 ">You are the one</a><br/>
+					<a class="small text-primary ">Raef</a>
+				</div>
+				<div class="col-md-3 align-self-center">
+					<a href="../docs/08.html" class="btn btn-primary" role="button" aria-disabled="true">View</a>
+					<a href="../index.html" class="btn btn-danger" role="button" aria-disabled="true">PDF</a>
+					<a class="btn btn-light" role="button" aria-disabled="true">43&ndash;48</a>
+				</div>
+			</div>
+		</div>
+		<div class="list-group-item list-group-item-action border-0 ">
+			<div class="row ">
+				<div class="col-md-9">
+					<a class="text-dark mb-1 ">True color</a><br/>
+					<a class="small text-primary ">Anna Kendrick ; Justin Timberlake</a>
+				</div>
+				<div class="col-md-3 align-self-center">
+					<a href="../docs/09.html" class="btn btn-primary" role="button" aria-disabled="true">View</a>
+					<a href="../index.html" class="btn btn-danger" role="button" aria-disabled="true">PDF</a>
+					<a class="btn btn-light" role="button" aria-disabled="true">49&ndash;54</a>
+				</div>
+			</div>
+		</div>
+		<div class="list-group-item list-group-item-action border-0 ">
+			<div class="row ">
+				<div class="col-md-9">
+					<a class="text-dark mb-1 ">For the rest of my life</a><br/>
+					<a class="small text-primary ">Maher Zain</a>
+				</div>
+				<div class="col-md-3 align-self-center">
+					<a href="../docs/10.html" class="btn btn-primary" role="button" aria-disabled="true">View</a>
+					<a href="../index.html" class="btn btn-danger" role="button" aria-disabled="true">PDF</a>
+					<a class="btn btn-light" role="button" aria-disabled="true">55&ndash;60</a>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!--bookshelf-->
-	<div class="jumbotron-book">
-		<section class="container p-5">
-			<div class="row">
-				<div class="col-sm-4 pb-5">
-					<h4 class="text-uppercase">Related proceedings</h4>
+	<div class="jumbotron-book ">
+		<section class="container p-5 ">
+			<div class="row ">
+				<div class="col-sm-4 pb-5 ">
+					<h4 class="text-uppercase ">Related proceedings</h4>
 					<p>View the related proceedings from our international and national conferences.</p>
 					<a href="../bookshelf.html"><button type="button m-sm-0" class="btn btn-none-primary">View all<i class="fa fa-chevron-circle-right pl-3"></i></button></a>
 				</div>
-				<div class="col-sm-8">
-					<div class="card-deck">
-						<div class="card">
-							<a href="../docs/201707.html"><img class="card-img-top" src="../assets/img/books/fig1.jpg" alt="ICST 2017 Proceeding" title="Proceeding of the 3rd International Conference on Science and Technology"></a>
+				<div class="col-sm-8 ">
+					<div class="card-deck ">
+						<div class="card ">
+							<a href="../docs/201707.html "><img class="card-img-top " src="../assets/img/books/fig1.jpg " alt="ICST 2017 Proceeding " title="Proceeding of the 3rd International Conference on Science and Technology "></a>
 						</div>
-						<div class="card">
-							<a href="../docs/201708.html"><img class="card-img-top" src="../assets/img/books/fig2.jpg" alt="ICHS 2017 Proceeding" title="Proceeding of the 2nd International Conference on Health Sciences"></a>
+						<div class="card ">
+							<a href="../docs/201708.html "><img class="card-img-top " src="../assets/img/books/fig2.jpg " alt="ICHS 2017 Proceeding " title="Proceeding of the 2nd International Conference on Health Sciences "></a>
 						</div>
-						<div class="card">
-							<a href="../docs/201709.html"><img class="card-img-top" src="../assets/img/books/fig3.jpg" alt="ICSEAS 2017 Proceeding" title="Proceeding of the 2nd International Conference on South East Asia Studies"></a>
+						<div class="card ">
+							<a href="../docs/201709.html "><img class="card-img-top " src="../assets/img/books/fig3.jpg " alt="ICSEAS 2017 Proceeding " title="Proceeding of the 2nd International Conference on South East Asia Studies "></a>
 						</div>
-						<div class="card">
-							<a href="../docs/v4.html"><img class="card-img-top" src="../assets/img/books/fig4.jpg" alt="ICTA 2017 Proceeding" title="Proceeding of the 2nd International Conference on Tropical Agriculture"></a>
+						<div class="card ">
+							<a href="../docs/v4.html "><img class="card-img-top " src="../assets/img/books/fig4.jpg " alt="ICTA 2017 Proceeding " title="Proceeding of the 2nd International Conference on Tropical Agriculture "></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 	</div>
-	<!--footer-->
-	<section class="jumbotron-gold">
-		<div class="container py-5 p-md-5">
-			<button type="button m-sm-0" class="btn btn-primary">Subscribe</button>
-		</div>
-	</section>
 	<!--lower navigation-->
-	<section class="footer">
-		<nav class="navbar navbar-expand-md navbar-dark bg-blue">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
+	<section class="footer ">
+		<nav class="navbar navbar-expand-md navbar-dark bg-blue ">
+			<ul class="navbar-nav ml-auto ">
+				<li class="nav-item ">
+					<a class="nav-link " href="# ">About</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Term of service</a>
+				<li class="nav-item ">
+					<a class="nav-link " href="# ">Term of service</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Privacy</a>
+				<li class="nav-item ">
+					<a class="nav-link " href="# ">Privacy</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Help</a>
+				<li class="nav-item ">
+					<a class="nav-link " href="# ">Help</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
+				<li class="nav-item ">
+					<a class="nav-link " href="# ">Contact</a>
 				</li>
 			</ul>
 		</nav>
@@ -212,9 +322,12 @@
 	<!--/.container-->
 	<!--bootstrap core js-->
 	<!--placed at the end of the document so the pages load faster-->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	    crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+	    crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+	    crossorigin="anonymous"></script>
 </body>
 
 </html>
